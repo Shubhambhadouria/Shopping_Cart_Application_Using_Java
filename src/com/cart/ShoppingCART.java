@@ -62,7 +62,7 @@ public class ShoppingCART {
 					System.out.println();
 					continue;
 					
-				//	Showing all products from cart
+				// Showing all products from cart
 				case 2:
 					System.out.println("-----------------------------------------");
 					System.out.println("You have chosen to show all items in cart");
@@ -172,7 +172,7 @@ public class ShoppingCART {
 					}
 					continue;
 					
-				// 	Listing All Items in the cart
+				// Listing All Items in the cart
 				case 6:
 					System.out.println("-----------------------------------------");
 					System.out.println("You have chosen to List All Items available in the Cart");
@@ -196,7 +196,7 @@ public class ShoppingCART {
 					}
 					continue;
 					
-				//	Filtering based on properties
+				// Filtering based on properties
 				case 7:
 					System.out.println("---------------------------------------------------");
 					System.out.println("You have chosen to Filter items based on Properties");
@@ -215,7 +215,7 @@ public class ShoppingCART {
 						System.out.println();
 						switch(choice1) {
 						
-							//	Sort Items in Cart based on Name
+							// Sort Items in Cart based on Name
 							case 1:
 								System.out.println("*******************************************");
 								System.out.println("You have chosen to Sort Items based on Name");
@@ -236,7 +236,7 @@ public class ShoppingCART {
 								}
 								continue;
 								
-							//	Sort Items in Cart based on Price
+							// Sort Items in Cart based on Price
 							case 2:
 								System.out.println("****************************************************");
 								System.out.println("You have chosen to Sort Items in Cart based on Price");
@@ -257,7 +257,7 @@ public class ShoppingCART {
 								}
 								continue;
 								
-							//	Sort Items based on Quantity		
+							// Sort Items based on Quantity		
 							case 3:
 								System.out.println("***********************************************");
 								System.out.println("You have chosen to Sort Items based on Quantity");
@@ -278,7 +278,7 @@ public class ShoppingCART {
 								}
 								continue;
 								
-							//	Exiting from Filter Method	
+							// Exiting from Filter Method	
 							case 4:
 								break;
 						}
@@ -286,7 +286,7 @@ public class ShoppingCART {
 					}
 					continue;
 					
-				//	Deleting all items in the cart	
+				// Deleting all items in the cart	
 				case 8:
 					System.out.println("---------------------------------------------");
 					System.out.println("You have chosen to Delete all items from the Cart");
@@ -305,7 +305,7 @@ public class ShoppingCART {
 					TimeUnit.SECONDS.sleep(2);
 					continue;
 					
-				//	Exiting the Application	
+				// Exiting the Application	
 				case 9:
 					System.out.println("----------------------------------------");
 					System.out.println("You have chosen to Exit from Application");
