@@ -49,25 +49,4 @@ public class Product {
 				+ productQuantity + "]";
 	}
 	
-	class nameComparataor implements Comparator<Product>{
-		@Override
-		public int compare(Product o1, Product o2) {
-			return o1.productName.compareToIgnoreCase(o2.productName);
-		}
-	}
-	
-	class priceComparataor implements Comparator<Product>{
-		@Override
-		public int compare(Product o1, Product o2) {
-			return o1.productPrice < o2.productPrice ? -1 : o1.productPrice == o2.productPrice? 0 : 1;
-		}
-	}
-	
-	class QuantityComparataor implements Comparator<Product>{
-
-		@Override
-		public int compare(Product o1, Product o2) {
-			return o1.productQuantity < o2.productQuantity ? -1 : o1.productQuantity == o2.productQuantity ? 0 : 1;
-		}
-	}
 }
