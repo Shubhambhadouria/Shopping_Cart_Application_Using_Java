@@ -171,7 +171,8 @@ public class ShoppingCART {
 						}
 					}
 					continue;
-				// 	
+					
+				// 	Listing All Items in the cart
 				case 6:
 					System.out.println("-----------------------------------------");
 					System.out.println("You have chosen to List All Items available in the Cart");
@@ -194,6 +195,8 @@ public class ShoppingCART {
 						TimeUnit.SECONDS.sleep(2);
 					}
 					continue;
+					
+				//	Filtering based on properties
 				case 7:
 					System.out.println("---------------------------------------------------");
 					System.out.println("You have chosen to Filter items based on Properties");
@@ -273,9 +276,9 @@ public class ShoppingCART {
 						}
 						break;
 					}
-					
-					
 					continue;
+					
+				//	Deleting all items in the cart	
 				case 8:
 					System.out.println("---------------------------------------------");
 					System.out.println("You have chosen to Delete all items from the Cart");
@@ -293,6 +296,8 @@ public class ShoppingCART {
 					System.out.println();
 					TimeUnit.SECONDS.sleep(2);
 					continue;
+					
+				//	Exiting the Application	
 				case 9:
 					System.out.println("----------------------------------------");
 					System.out.println("You have chosen to Exit from Application");
