@@ -214,6 +214,8 @@ public class ShoppingCART {
 						int choice1 = sc.nextInt();
 						System.out.println();
 						switch(choice1) {
+						
+							//	Sort Items in Cart based on Name
 							case 1:
 								System.out.println("*******************************************");
 								System.out.println("You have chosen to Sort Items based on Name");
@@ -233,6 +235,8 @@ public class ShoppingCART {
 									}
 								}
 								continue;
+								
+							//	Sort Items in Cart based on Price
 							case 2:
 								System.out.println("****************************************************");
 								System.out.println("You have chosen to Sort Items in Cart based on Price");
@@ -252,6 +256,8 @@ public class ShoppingCART {
 									}
 								}
 								continue;
+								
+							//	Sort Items based on Quantity		
 							case 3:
 								System.out.println("***********************************************");
 								System.out.println("You have chosen to Sort Items based on Quantity");
@@ -271,6 +277,8 @@ public class ShoppingCART {
 									}
 								}
 								continue;
+								
+							//	Exiting from Filter Method	
 							case 4:
 								break;
 						}
